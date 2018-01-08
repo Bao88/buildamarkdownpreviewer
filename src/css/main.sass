@@ -1,0 +1,36 @@
+$splitscreen: 40%;
+$border: 1px solid black;
+$height: 80vh;
+$width: 100vw;
+$boxSizes: 10vh 5vw 0 5vw;
+// @import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display')
+
+// *
+//     font-family: 'Sedgwick Ave Display', cursive
+
+html, body 
+    margin: 0
+    padding: 0
+    // height: $height
+    // width: $width
+
+body 
+    background-color: white
+    // display: flex
+    // min-height: $height
+    // min-width: $width
+
+#main
+    div
+        display: flex
+
+.split 
+    display: block
+    width: $splitscreen
+    height: $height
+    border: $border
+    margin: $boxSizes
+    background-color: lightgreen
+
+#previever 
+    white-space: pre-wrap
