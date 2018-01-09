@@ -1,0 +1,1 @@
+node-sass-chokidar src/ -o src/ --watch --recursive

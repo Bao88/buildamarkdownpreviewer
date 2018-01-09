@@ -1,8 +1,8 @@
 $splitscreen: 40%;
-$border: 1px solid black;
-$height: 80vh;
+$border: 5px solid black;
+$height: 70vh;
 $width: 100vw;
-$boxSizes: 10vh 5vw 0 5vw;
+$boxSizes: 5vh 5vw 0 5vw;
 // @import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display')
 
 // *
@@ -30,10 +30,21 @@ body
     height: $height
     border: $border
     margin: $boxSizes
-    background-color: lightgreen
+    background-color: white
+    border-radius: 10px
+    box-shadow: 2px 2px 2px
+    outline: none
 
-#previever 
-    white-space: pre-wrap
+#previewer 
+    margin-left: 55%
+    min-height: $height
+    border: none
+    box-shadow: none
 
 .title
-    border: $border
+    
+    text-align: center
+    font-size: 50px
+
+#marker 
+    position: fixed
